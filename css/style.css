@@ -1,0 +1,338 @@
+::-webkit-scrollbar 		{ width:0.50em;height:0.35em; background: #222; }
+::-webkit-scrollbar-thumb 	{ background: #838383; border-radius:10px;}
+::-wbkit-scrollbar-button	{ background: #FFFFFF;  }
+::-webkit-scrollbar-thumb:hover	{ background: white; border-radius:10px;}
+
+body{
+	background-color: lightgrey;
+	font-family: 'Poiret One';
+	font-size: 22px;
+	font-style: bold; 
+}
+
+.social{
+	display: inline;
+	padding: 2%;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+a:hover{
+	color: grey;
+	transition: all 0.4s ease;
+}
+
+.faw{
+	font-size:24px; 
+	color: black;
+}
+
+.faw:hover{ 
+	color: grey;
+	transition: all 0.4s ease;
+}
+
+.animate-bottom {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: 100;
+		-webkit-animation-name: animatebottom;
+		-webkit-animation-duration: 1s;
+		animation-name: animatebottom;
+		animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+		from { top: 75%; opacity:0 } 
+		to { top:37%; opacity:1 }
+}
+
+@keyframes animatebottom { 
+		from{ top:75%; opacity:0 } 
+		to{ top:37%; opacity:1 }
+}
+
+/* Make the carousel image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+
+.carousel {
+  width:100%;
+  height:900px;
+
+}
+
+.carousel img{
+	width: 100%;
+	height: 900px;
+}
+
+@media only screen and (max-width: 425px) {
+	.carousel {
+		width:100%;
+		height:300px;
+	}
+
+	.carousel img{
+		width: 100%;
+		height: 300px;
+	}    
+	.animate-bottom {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: 100;
+		-webkit-animation-name: animatebottom;
+		-webkit-animation-duration: 1s;
+		animation-name: animatebottom;
+		animation-duration: 1s
+	}
+
+	@-webkit-keyframes animatebottom {
+			from { top: 75%; opacity:0 } 
+			to { top:50%; opacity:1 }
+	}
+
+	@keyframes animatebottom { 
+			from{ top:75%; opacity:0 } 
+			to{ top:50%; opacity:1 }
+	}
+
+}
+
+@media only screen and (width: 2560px) {
+	.carousel {
+		width:100%;
+		height: 1200px;
+	}
+
+	.carousel img{
+		width: 100%;
+		height: 1200px;
+	}    
+
+	.animate-bottom {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: 100;
+		-webkit-animation-name: animatebottom;
+		-webkit-animation-duration: 1s;
+		animation-name: animatebottom;
+		animation-duration: 1s
+	}
+
+	@-webkit-keyframes animatebottom {
+			from { top: 75%; opacity:0 } 
+			to { top:13%; opacity:1 }
+	}
+
+	@keyframes animatebottom { 
+			from{ top:75%; opacity:0 } 
+			to{ top:13%; opacity:1 }
+	}
+}
+
+@media only screen and (width: 768px) {
+	.animate-bottom {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: 100;
+		-webkit-animation-name: animatebottom;
+		-webkit-animation-duration: 1s;
+		animation-name: animatebottom;
+		animation-duration: 1s
+	}
+
+	@-webkit-keyframes animatebottom {
+			from { top: 75%; opacity:0 } 
+			to { top:42%; opacity:1 }
+	}
+
+	@keyframes animatebottom { 
+			from{ top:75%; opacity:0 } 
+			to{ top:42%; opacity:1 }
+	}
+}
+
+@media only screen and (width: 1440px) {
+	.animate-bottom {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: 100;
+		-webkit-animation-name: animatebottom;
+		-webkit-animation-duration: 1s;
+		animation-name: animatebottom;
+		animation-duration: 1s
+	}
+
+	@-webkit-keyframes animatebottom {
+			from { top: 75%; opacity:0 } 
+			to { top:21%; opacity:1 }
+	}
+
+	@keyframes animatebottom { 
+			from{ top:75%; opacity:0 } 
+			to{ top:21%; opacity:1 }
+	}
+
+
+}
+
+.no-padding {
+		padding: 0px;
+}
+
+.tooltip-inner {
+    max-width: 225px;
+    padding: 3px 8px;
+    color: #fff;
+    text-align: center;
+    background-color: #000;
+    border-radius: .25rem;
+}
+
+.tooltip.bs-tooltip-auto[x-placement^=top] .arrow::before, .tooltip.bs-tooltip-top .arrow::before {
+    margin-left: -3px;
+    content: "";
+    border-width: 5px 5px 0;
+    border-top-color: #000;
+}
+
+
+.nav-pills{
+	width:70%;
+	margin-left: 15%;
+}
+hr{
+	width: 10%;
+	border: none;
+    height: 3px;
+    /* Set the hr color */
+    color: #333; /* old IE */
+    background-color: #fff; /* Modern Browsers */
+}
+
+.info {background-color: #000; color: white;}
+.danger {background-color: #f44336; color: white;}
+.ser{
+	background-color: #343a40; 
+	color: white;
+}
+.gal{
+	background-color: #343a40; 
+	color: white;
+}
+.abt{
+	background-color: #343a40; 
+	color: white;
+}
+.cot{
+	background-color: #343a40; 
+	color: white;
+}
+.card{
+	border-color: white;
+	border-radius: 0px;
+	text-align: center;
+	width: 100%;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+  background-color: #f1f1f1;
+}
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ccc;
+}
+
+.progress-bar {
+  height: 8px;
+  background: #4caf50;
+  width: 0%;
+}
+
+
+.header1 {
+    text-align: center;
+    padding: 32px;
+}
+
+.row {
+    display: -ms-flexbox; /* IE 10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE 10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%; /* IE 10 */
+    flex: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+.back-to-top {
+    cursor: pointer;
+	background-color: #777;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+	
+	display: none;
+	z-index: 9999;
+}
+
+.back-to-top:hover {
+    cursor: pointer;
+	background-color: #000;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+	z-index: 9999;
+}
+
+.bor{
+	border-color: white;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.animate-bottom1 {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		z-index: 100;
+		-webkit-animation-name: animatebottom1;
+		-webkit-animation-duration: 1s;
+		animation-name: animatebottom1;
+		animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom1 {
+		from { top: 75%; opacity:0 } 
+		to { top:0%; opacity:1 }
+}
+
+@keyframes animatebottom1 { 
+		from{ top:75%; opacity:0 } 
+		to{ top:0%; opacity:1 }
+}
